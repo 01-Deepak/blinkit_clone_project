@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -151,3 +152,172 @@ footer {
         display: none;
     }
 }
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#vertical_line{
+    height: 70px;
+    border: 1px solid rgb(231, 231, 231);
+}
+#nav_delivery>h5{
+    margin: 0px;
+    font-weight: 800;
+}
+#nav_delivery>p{
+    margin: 0px;
+}
+#search_div{
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: 35vw;
+}
+#search_div>input{
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    height: 40px;
+
+}
+#categories_section{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card_section,.category_section, footer{
+    width: 81vw;
+    margin: auto;
+}
+#scrollable_div{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+
+
+}
+#scrollable_div .my-card{
+    display: inline-block;
+}
+
+.my-card{
+    width: 200px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.time-div{
+    padding: 5px;
+    background-color: #f8f8f8;
+    width: fit-content;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-inline: 5px;
+
+}
+.product-title{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+
+}
+.product-weight{
+    color: gray;
+    font-size: 13px;
+
+}
+
+#footer_r1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#footer_table1{
+    flex: 2;
+}
+
+
+#footer_table2{
+    flex: 3;
+}
+table{
+    width: 100%;
+}
+td{
+    
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer_r2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_r2>p{
+    width: 40%;
+    font-size: 15px;
+    text-align: justify;
+    color: #6a6a6a;
+}
+#social_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#download>p{
+    margin: 0px;
+    font-weight: 700;
+    padding: 20px;
+}
+#download>img{
+    margin: 10epx;
+}
+
+.social_icon{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-inline: 10px;
+}
+#footer_r3{
+    font-size: 15px;
+    text-align: justify;
+    color: gray;
+
+}
+
+>>>>>>> 8b9094ce7d97adbe393f9c5b0abfabd4dde242d1
